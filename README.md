@@ -21,14 +21,14 @@ This project was part of my final year module 'Programming' and received a mark 
 
 ## Code Overview
 
-### Main Simulation (`25590_Q3.c`)
+### Main Simulation (`main.c`)
 
 - Initializes the random number generator.
 - Allocates memory for the simulation structures.
 - Performs the random walk simulation.
 - Outputs the results to CSV files.
 
-### Header File (`rndwalknetwork_25590.h`)
+### Header File (`header.h`)
 
 - Defines the `pos_info` struct to store the position and state of the particle.
 - Defines the `tracker_info` struct to manage the network state.
