@@ -1,9 +1,11 @@
 # Random Walk Network Simulation
 
-This project implements a random walk simulation on a network using C. It demonstrates proficiency in several key programming concepts including dynamic memory allocation, use of structs, file I/O, and modular code organization. This project was part of my final year module 'Programming' and received a mark of 88%.
+This project implements a random walk simulation on a network using C. It demonstrates proficiency in several key programming concepts including dynamic memory allocation, use of structs, file I/O, and modular code organization. The random walk is simualted upon the network below with a dynamic number of components and nodes within each. 
 
 ![Logo](image/network.png)
 
+This project was part of my final year module 'Programming' and received a mark of 88%.
+ 
 ## Features
 
 - **Multi-Dimensional Random Walk:** Simulates random walks in configurable dimensions and network sizes.
