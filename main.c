@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "rndwalknetwork_25590.h"
+#include "header.h"
 
 
 int main() {
