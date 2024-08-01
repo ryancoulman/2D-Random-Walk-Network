@@ -4,7 +4,7 @@ This project implements a random walk simulation on a network using C. It demons
 
 ![Logo](image/network.png)
 
-This project was part of my final year module 'Programming' and received a mark of 88%.
+This project was part of my final year module 'Programming' and received a mark of 88%. Please see `code_report.pdf` to see extensive testing of the programme's capabilities and an explanation of the approach involved.  
  
 ## Features
 
