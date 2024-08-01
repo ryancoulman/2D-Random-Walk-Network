@@ -1,5 +1,5 @@
-#ifndef RNDWALKNETWORK_25590_H
-#define RNDWALKNETWORK_25590_H
+#ifndef HEADER_H
+#define HEADER_H
 
 #include <stdio.h>
 
@@ -34,4 +34,4 @@ void pos_distribution(pos_info n[], tracker_info *t, int total_iterations);
 // function to handle file writing
 FILE *open_file(const char *filename, const char *header);
 
-#endif /* RNDWALKNETWORK_25590_H */
+#endif /* HEADER_H */
