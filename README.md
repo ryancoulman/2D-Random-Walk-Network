@@ -8,14 +8,14 @@ This project was part of my final year module 'Programming' and received a mark 
  
 ## Features
 
-- **Multi-Dimensional Random Walk:** Simulates random walks in configurable dimensions and network sizes.
+- **Multi-Particle Random Walk:** Simulates a multi-particle random walk using an array of 'particle' structs. 
 - **High-Performance Computation:** Efficiently handles large-scale simulations using dynamically allocated memory.
 - **Data Output:** Outputs the results of simulations to CSV files for further analysis.
 
 ## Key Concepts Demonstrated
 
 - **Dynamic Memory Allocation:** Utilizes `malloc` and `free` to manage memory for simulation structures.
-- **Structs:** Defines and manipulates complex data structures to represent the state of the random walk.
+- **Structs:** Defines and manipulates complex data structures to represent the state of the random walk and the numerous particles.
 - **File I/O:** Writes simulation results to CSV files for visualization and analysis.
 - **Random Number Generation:** Uses random functions to simulate the movement of particles in the network.
 
@@ -42,26 +42,8 @@ This project was part of my final year module 'Programming' and received a mark 
 ## Quantifiable Results
 
 - Simulated **10,000 iterations** per configuration to calculate average iterations required to visit all points in the network.
-- Generated results for **A = 2 to 100** and **B = 2 to 100**, with step size of 2.
+- Generated results for **num components = 2 to 100** and **num nodes within each component = 2 to 100**.
 - Stored the average iterations for each configuration in CSV files.
-
-## Usage
-
-1. **Clone the Repository:**
-    ```sh
-    git clone https://github.com/your-username/random-walk-network-simulation.git
-    cd random-walk-network-simulation
-    ```
-
-2. **Compile the Code:**
-    ```sh
-    gcc 25590_Q3.c -o random_walk_network -lm
-    ```
-
-3. **Run the Simulation:**
-    ```sh
-    ./random_walk_network
-    ```
 
 ## Example Output
 
